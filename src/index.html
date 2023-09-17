@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Hello World!</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <div class="main-wrapper">
+    <h1 class="title">Currency Converter App</h1>
+    <form id="cc-form" class="cc-form">
+      <div class="cc-group">
+        <select id="currency-type-left">
+        </select>
+        <input type="number" name="ct-value-left" id="ct-value-left" required />
+      </div>
+      <div class="cc-group">
+        <select id="currency-type-right"></select>
+        <input type="number" id="ct-value-right" readonly />
+      </div>
+      <button type="submit" class="btn">Convert</button>
+
+    </form>
+  </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
